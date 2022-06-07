@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Login</h1>
+                </div>
+                <form action="">
+                    <form  [formGroup]="loginForm" (ngSubmit)="loggedIn()">
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="UserName" formControlName="username" aria-describedby="emailHelp">
+                          <span class="text-danger" *ngIf="loginForm.controls['username'].dirty && loginForm.hasError('required' , 'username')">*userName required</span>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" formControlName="password">
+                          <span class="text-danger" *ngIf="loginForm.controls['password'].dirty && loginForm.hasError('required' , 'password')">*Password  required</span>
+                        </div>
+                        <button type="submit" [disabled]="!loginForm.valid" class="btn btn-primary">Submit</button>
+                      </form>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

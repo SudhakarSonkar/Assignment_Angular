@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "login": [
+    {
+      "username": "pooja.prajapat.sbg@gmail.com",
+      "password": "Pooja@123",
+      "id": 1
+    },
+    {
+      "username": "uygivhkbjn@gmail.com",
+      "password": "tyivkhj",
+      "id": 2
+    },
+    {
+      "username": "pooja.prajapat.sbg@gmail.com",
+      "password": "Pooja@123",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,50 @@
+<div class="container ">
+    <div class="heading">
+        <table  class="table">
+            <tr>
+                <th>DEPARTUE</th>
+                <th>DURATION</th>
+                <th>ARRIVAL</th>   
+                <th>PRICE</th>  
+            </tr>
+        </table>
+    </div>
+    <div class="details" *ngFor="let flight of flights">
+        <div>
+            <img src="https://1000marcas.net/wp-content/uploads/2021/07/SpiceJet-Logo.png" alt="" width="70px">
+            <span class="imgName">{{flight.ImgName}}</span>
+        </div>
+        <div class="countryDetail">
+            <span>{{flight.DEL}}</span>
+            <span class="countryName">{{flight.countryName}}</span>  
+            <span class="countryName bom" >{{flight.BOM}}</span>  
+        </div>
+        <table  class="table table-detail" >
+            <tr>
+                <th>{{flight.Departure}}</th>
+                <th>{{flight.Duration}}</th>
+                <th>{{flight.Arrival}}</th>   
+                <th>{{flight.Price}} 
+                    <button class="btn">BOOK</button>
+                </th>
+                
+            </tr>
+        </table>
+        <div class="countryName">
+            <div style="float: left;">Partially Refundable</div>
+            <div class="flightdetail-dropdown">
+                <select name="cars" id="cars" class="flightdetail-dropdown">
+                    <option value="volvo">Flight Details</option>
+                    <option value="saab">Flight Offers</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                  </select>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+

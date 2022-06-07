@@ -1,0 +1,74 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.container{
+    background:  #ebecfb;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+.heading{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    height: 45px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.details{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    height: 180px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: white;
+    margin-bottom: 10px;  
+}
+@media screen and (max-width: 600px) {
+    .details{
+        height: 250px;
+    }
+}
+.imgName{
+    font-family: sans-serif;
+    color:  #808080;
+    font-size: medium;
+    padding: 7px;
+}
+.countryName{
+    color: #808080;
+    font-family: sans-serif;
+    margin-left: 8px;
+}
+.countryDetail{
+    padding-left: 15px;
+}
+.table-detail{
+    margin-left: 10px; 
+}
+.bom{
+    margin-left: 410px;
+}
+@media screen and (max-width: 600px) {
+    .bom{
+        margin-left: 30px;
+    }
+}
+th{
+    width: 22% !important;
+}
+.btn{
+    background:  #ff8c1a !important;
+    width: 100px;
+    margin-left: 20px;
+    font-size: small;
+    font-weight: 600;
+    color: white;
+}
+.flightdetail-dropdown{
+    float: right;
+    margin-right: 50px;
+    border: none;
+    color: #0044cc;
+    font-weight: 600;
+}

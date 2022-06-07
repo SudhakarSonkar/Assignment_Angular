@@ -1,0 +1,39 @@
+[
+    {
+        "Departure": "17:45",
+         "Duration": "2h 20m",
+         "Arrival": "20:05",
+         "Price":  6543,
+         "book" : "BOOK",
+         "ImgName": "Vistara",
+         "DEL":"DEL",
+         "countryName" : " New Delhi, India",
+         "Refund": "Partially Refundable",
+         "BOM" : "BOM Mumbai , India"
+         
+    },
+    {
+        "Departure": "18:45",
+         "Duration": "2h 15m",
+         "Arrival": "20:50",
+         "Price": 7776,
+         "book" : "BOOK",
+         "ImgName": "Spiceject",
+         "DEL":"DEL",
+         "countryName" : " New Delhi, India",
+         "Refund": "Partially Refundable",
+         "BOM" : "BOM Mumbai , India"
+    },
+    {
+        "Departure": "19:45",
+         "Duration": "2h 20m",
+         "Arrival": "22:05",
+         "Price": 7776,
+         "book" : "BOOK",
+         "ImgName": "Spiceject",
+         "DEL":"DEL",
+         "countryName" : " New Delhi, India",
+         "Refund": "Partially Refundable",
+         "BOM" : "BOM Mumbai , India"
+    }
+]
