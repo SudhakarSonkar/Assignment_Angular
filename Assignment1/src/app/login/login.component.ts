@@ -22,7 +22,7 @@ export class LoginComponent implements OnInit {
      this.http.post<any>("http://localhost:3000/login" , this.loginForm.value)
      .subscribe(result =>{
        console.log(this.loginForm.value.username)
-       if(this.loginForm.value.username == "pooja.prajapat.sbg@gmail.com" && this.loginForm.value.password == "Pooja@123"){
+       if(this.loginForm.value.username == "Admin@gmail.com" && this.loginForm.value.password == "Admin@123"){
        alert("logIn successfull");
        this.router.navigate(['flightDetail'])
       }
